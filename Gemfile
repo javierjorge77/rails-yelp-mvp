@@ -1,6 +1,8 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
+gem "jbuilder"
+
 gem "simple_form", github: "heartcombo/simple_form"
 
 ruby "3.1.2"
